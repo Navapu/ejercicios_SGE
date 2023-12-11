@@ -1,0 +1,5 @@
+fichero=open("datos.txt","w") 
+fichero.write("Primer linea.\n") 
+fichero.write("Segunda linea.\n") 
+fichero.write("Tercer linea.\n")  
+fichero.close() 

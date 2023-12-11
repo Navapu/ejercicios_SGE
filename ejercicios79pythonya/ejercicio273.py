@@ -1,0 +1,6 @@
+fichero=open("datos.txt","r+") 
+content = fichero.read()
+print(content)
+fichero.write("Otra línea 1\n")
+fichero.write("Otra línea 2\n")
+fichero.close()
